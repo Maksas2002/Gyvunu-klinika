@@ -1,4 +1,4 @@
-const mongoose = require("../db");
+const mongoose = require("../../server/db");
 
 const VizitasSchema = new mongoose.Schema({
     gyvunas_id: {

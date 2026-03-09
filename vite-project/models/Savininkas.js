@@ -1,4 +1,4 @@
-const mongoose = require("../db");
+const mongoose = require("../../server/db");
 
 const SavininkasSchema = new mongoose.Schema({
     vardas: String,
